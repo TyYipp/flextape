@@ -1,19 +1,35 @@
 body,
 html,
 * {
-    font-size: 10px;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: lightskyblue;
 }
-h3{
-    font-size: 2.2rem;
+.game{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    color: whitesmoke;
+}
+.parent{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.child{
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
 }
 
-.card {
+
+/* .card {
     height: 50vh;
     width: 27vw;
-    background-color: rgba(red, green, blue, alpha);
+    background-color: red;
     display: flex ;
     flex-direction: column;
     align-items: center;
@@ -21,7 +37,14 @@ h3{
     margin: 1rem 0;
 }
 
+.child {
+
+}
 
 .card-img {
     width: 100%;
-}
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
